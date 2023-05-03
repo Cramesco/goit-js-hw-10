@@ -7,9 +7,11 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
-  color: #212121;
+  background-color: #65e4f5;
+  color: #43d6f7;
   line-height: 1.5;
+  flex-direction: row;
+  align-items: center;
 }
 
 #search-box {
@@ -17,4 +19,18 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  align-items: center;
 }
+
+h1 {
+  align-items: center;
+  color: black;
+  position: fixed;
+  color: black;
+}
+
+.country-info {
+  color: black;
+  list-style-type: none;
+}
+
